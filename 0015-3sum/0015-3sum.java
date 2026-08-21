@@ -5,6 +5,10 @@ class Solution {
         for(int i=0;i<=nums.length-3;i++){
             int l = i+1;
             int r = nums.length-1;
+
+            if (nums[i] > 0) {
+                break;
+                }
             if(i>0 && nums[i]== nums[i-1]){
                 continue;
             } 
